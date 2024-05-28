@@ -1,8 +1,20 @@
+### install backend's libraries
 ```
-docker-compose build
+cd backend
 ```
 ```
-docker-compose up -d
+npm install
+```
+### install frontend's libraries
+```
+cd frontend
+```
+```
+npm install
+```
+### create and run the containers
+```
+docker-compose up --build
 ```
 
 ### for testing API
